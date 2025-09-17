@@ -5,13 +5,10 @@
 using namespace std;
 
 int main(){
-
-
     SetConsoleOutputCP(65001); // Увімкнути UTF-8 вивід
     setlocale(LC_ALL, "uk_UA.UTF-8");
 
     short x, y, z; //основні змінні
-    cout << "Введіть знчення x, y та z" << endl;
     cin >> x >> y >> z;
 
     cout << "(x → (y → z)) → ((x ∧ y) → z)" << endl; //виведення початкової формули
